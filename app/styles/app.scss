@@ -11,8 +11,56 @@
 }
 // Navbar text center end
 
+h3 {
+  padding-bottom: 7px;
+}
+
+// Contact page Font Awesome Icons Start
+.fa-icons {
+  padding: 15px;
+  text-align: center;
+}
+
+.icon-background-face {
+  color: #3b5998;
+}
+
+.fa-facebook {
+  color: #fff;
+}
+
+.facebook i {
+  margin-right: 100px;
+}
+
+.icon-background-twit {
+  color: #00aced;
+}
+
+.fa-twitter {
+  color: #fff;
+}
+
+.icon-background-tube {
+  color: #bb0000;
+}
+
+.fa-youtube {
+  color: #fff;
+}
+
+.icon-background-env {
+  color: #000000;
+}
+
+.fa-envelope {
+  color: #fff;
+}
+// Contact page Font Awesome Icons End
+
 // Footer text placement start
 .navbar-fixed-bottom {
-  padding: 15px 60px 0 50px;
+  padding-top: 15px;
+  text-align: center;
 }
 // Footer text placement end
