@@ -16,13 +16,26 @@ h3 {
 }
 
 // Contact page Font Awesome Icons Start
-.fa-icons {
-  padding: 15px;
-  text-align: center;
+@media (max-width:499px) {
+  .fa-icons {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .fa-icons span {
+    margin: 0;
+  }
 }
 
-.fa-icons span {
-  margin: 0 40px;
+@media (min-width:500px) {
+  .fa-icons {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .fa-icons span {
+    margin: 0 40px;
+  }
 }
 
 .icon-background-face {
