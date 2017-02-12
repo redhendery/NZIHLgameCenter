@@ -6,11 +6,20 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
+  // Margin bottom by footer height
   margin-bottom: 60px;
 }
 
-// Navbav text center start
+// Navbav stayling start
+.navbar-brand {
+  padding-left: 50px;
+}
+
+.navbar-right {
+  padding-right: 20px;
+}
+
+// Navbar text center start
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -18,8 +27,9 @@ body {
 
 .navbar .navbar-collapse {
   text-align: center;
+  padding-left: 275px;
 }
-// Navbar text center end
+// Navbar styling end
 
 h3 {
   padding-bottom: 7px;
@@ -81,7 +91,7 @@ h3 {
 }
 // Contact page Font Awesome Icons End
 
-// Footer text placement start
+// Footer placement start
 .footer {
   position: absolute;
   bottom: 0;
@@ -91,5 +101,6 @@ h3 {
   background-color: #f5f5f5;
   text-align: center;
   padding-top: 6px;
+  padding-right: 50px;
 }
 // Footer text placement end
