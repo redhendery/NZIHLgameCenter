@@ -11,23 +11,39 @@ body {
 }
 
 // Navbav stayling start
-.navbar-brand {
-  padding-left: 50px;
+@media (max-width:499px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-brand {
+    padding-left: 10px;
+  }
 }
 
-.navbar-right {
-  padding-right: 20px;
-}
+@media (min-width:500px) {
+  .navbar-collapse {
+    text-align: center;
+  }
 
-// Navbar text center start
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-}
+  .navbar-brand {
+    padding-left: 50px;
+  }
 
-.navbar .navbar-collapse {
-  text-align: center;
-  padding-left: 275px;
+  .navbar-right {
+    padding-right: 20px;
+  }
+
+  // Navbar text center start
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+    padding-left: 275px;
+  }
+
 }
 // Navbar styling end
 
