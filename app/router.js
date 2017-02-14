@@ -9,7 +9,11 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('stats');
   this.route('teams');
-  this.route('schedule');
+
+  this.route('schedule', function() {
+    this.route('new');
+  });
+
   this.route('contact');
 });
 
