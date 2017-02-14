@@ -6,15 +6,19 @@ module.exports = function(environment) {
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
+
+    firebase: {
+      apiKey: "AIzaSyBA4GC-T2LwSrj452Vgrjttiv2s0PnhO_E",
+      authDomain: "nzihl-game-center.firebaseapp.com",
+      databaseURL: "https://nzihl-game-center.firebaseio.com",
+      storageBucket: "nzihl-game-center.appspot.com",
+      messagingSenderId: "1048637755671"
+    },
+
     EmberENV: {
       FEATURES: {
-        firebase: {
-          apiKey: "AIzaSyBA4GC-T2LwSrj452Vgrjttiv2s0PnhO_E",
-          authDomain: "nzihl-game-center.firebaseapp.com",
-          databaseURL: "https://nzihl-game-center.firebaseio.com",
-          storageBucket: "nzihl-game-center.appspot.com",
-          messagingSenderId: "1048637755671"
-        }
+        // Here you can enable experimental features on an ember canary build
+        // e.g. 'with-controller': true
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.

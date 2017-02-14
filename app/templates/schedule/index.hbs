@@ -1,0 +1,14 @@
+{{#each model as |schedule|}}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">{{schedule.name}}</h3>
+    </div>
+    <div class="panel-body">
+      <p>Home: {{schedule.home}}</p>
+      <p>Away: {{schedule.away}}</p>
+      <p>Venue: {{schedule.venue}}</p>
+      <p>Date: {{schedule.date}}</p>
+    </div>
+  </div>
+{{/each}}
+{{outlet}}
