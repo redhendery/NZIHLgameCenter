@@ -3,6 +3,7 @@
 html {
   position: relative;
   min-height: 100%;
+  overflow-y: scroll;
 }
 
 body {
@@ -105,6 +106,12 @@ h3 {
   color: #fff;
 }
 // Contact page Font Awesome Icons End
+
+// Schedule Item Styling Start
+.schedule-item {
+  min-height: 150px;
+}
+// Schedule Item Styling End
 
 // Footer placement start
 .footer {
