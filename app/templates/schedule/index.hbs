@@ -1,20 +1,9 @@
 <div class="container-fluid">
-  <div class="row">
-    {{#each model as |schedule|}}
-      <div class="col-md-6">
-        <div class="panel panel-default schedule-item">
-          <div class="panel-heading text-center">
-            <h2 class="panel-title">{{schedule.game}} - {{schedule.home}} v {{schedule.away}}</h2>
-          </div>
-          <div class="panel-body text-center">
-            <p>A bunch of stuff about the upcoming game.</p>
-          </div>
-          <div class="panel-footer text-center">
-            <h5>Venue: {{schedule.venue}} Date: {{schedule.date}}</h5>
-          </div>
-        </div>
-      </div>
-    {{/each}}
-    {{outlet}}
-  </div>
+  {{#each model as |schedule|}}
+    <div class="col-md-6">
+      {{#schedule-item item=schedule}}
+        Venue: {{schedule.venue}} Date: {{schedule.date}}
+      {{/schedule-item}}
+    </div>
+  {{/each}}
 </div>
