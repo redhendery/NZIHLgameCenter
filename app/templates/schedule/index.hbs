@@ -1,11 +1,9 @@
 <div class="container-fluid">
-  <div class="row">
-    {{#each model as |schedule|}}
-      <div class="col-md-6">
-        {{#schedule-item item=schedule}}
-          Venue: {{schedule.venue}} Date: {{schedule.date}}
-        {{/schedule-item}}
-      </div>
-    {{/each}}
-  </div>
+  {{#each model as |schedule|}}
+    <div class="col-md-6">
+      {{#schedule-item item=schedule}}
+        Venue: {{schedule.venue}} Date: {{schedule.date}}
+      {{/schedule-item}}
+    </div>
+  {{/each}}
 </div>
