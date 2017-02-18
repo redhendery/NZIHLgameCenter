@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  {{#each filteredGames as |schedule|}}
+  {{#each model as |schedule|}}
     <div class="col-md-6">
       {{#schedule-item item=schedule}}
         Venue: {{schedule.venue}} Date: {{schedule.date}}
