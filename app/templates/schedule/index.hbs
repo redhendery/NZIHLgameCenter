@@ -1,50 +1,42 @@
-<h2 class="h1-schedule">List</h2>
-
 <div class="container-fluid">
-  <div class="col-md-1">
-    {{#link-to (query-params limit='all' letter='') class='btn btn-default btn-lg btn-block'}}All{{/link-to}}
-  </div>
-  <div class="col-md-1">
-    {{#link-to (query-params limit='abc') class='btn btn-default btn-lg btn-block'}}Abc{{/link-to}}
-  </div>
+  <div class="row">
+    <div class="col-md-1">
+      {{#link-to (query-params limit='all' letter='') class='btn btn-default btn-lg btn-block'}}All{{/link-to}}
+    </div>
+    <div class="col-md-1">
+      {{#link-to (query-params limit='abc') class='btn btn-default btn-lg btn-block'}}Abc{{/link-to}}
+    </div>
 
-  <div class="col-md-10">
-    {{#if limitAll}}
-      <div class="form-group">
-        {{input value=filter class="form-control input-lg" placeholder="Filter by library name"}}
-      </div>
-    {{else}}
+    <div class="col-md-10">
+      {{#if limitAll}}
         <div class="form-group">
-          {{abc-buttons}}
+          {{input value=filter class="form-control input-lg" placeholder="Filter by library name"}}
         </div>
-    {{/if}}
+      {{else}}
+          <div class="form-group">
+            {{abc-buttons}}
+          </div>
+      {{/if}}
+    </div>
   </div>
-</div>
 
-{{!-- <div class="container-fluid">
-  {{#each filteredList as |schedule|}}
-    <div class="col-md-6">
-      {{#schedule-item item=schedule}}
-        Venue: {{schedule.venue}} Date: {{schedule.date}}
-      {{/schedule-item}}
-    </div>
-  {{/each}}
-</div> --}}
-
-<div class="row">
-  {{#each filteredList as |schedule|}}
-    <div class="col-md-4">
-
-    </div>
-  {{else}}
-    {{#if model.isUpdating}}
-      {{spinner-cube}}
-    {{else}}
-      <div class="col-md-12 text-center">
-        <div class="alert alert-info">
-          Sorry, no result.
-        </div>
+  <div class="row">
+    {{#each filteredList as |schedule|}}
+      <div class="col-md-4">
+        {{#schedule-item item=schedule}}
+          Venue: {{schedule.venue}} Date: {{schedule.date}}
+        {{/schedule-item}}
       </div>
-    {{/if}}
-  {{/each}}
+    {{else}}
+      {{#if model.isUpdating}}
+        {{spinner-cube}}
+      {{else}}
+        <div class="col-md-12 text-center">
+          <div class="alert alert-info">
+            Sorry, no result.
+          </div>
+        </div>
+      {{/if}}
+    {{/each}}
+  </div>
 </div>
