@@ -12,6 +12,11 @@ Router.map(function() {
 
   this.route('schedule', function() {
     this.route('new');
+    this.route('swarm');
+    this.route('devils');
+    this.route('stampede');
+    this.route('thunder');
+    this.route('admirals');
   });
 
   this.route('contact');

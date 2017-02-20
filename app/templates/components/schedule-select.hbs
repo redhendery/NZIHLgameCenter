@@ -1,0 +1,5 @@
+{{#each schedule as |schedule|}}
+  <option value={{schedule.id}} selected={{is-equal schedule.id default.id}}>
+    {{schedule.home}}
+  </option>
+{{/each}}
