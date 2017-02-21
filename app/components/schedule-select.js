@@ -4,7 +4,7 @@ export default Ember.Component.extend({
 
   tagName: 'select',
   schedule: [],
-  book: null,
+  schedule: null,
 
   change(event) {
     const selectedScheduleId = event.target.value;

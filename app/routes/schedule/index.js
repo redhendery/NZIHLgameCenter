@@ -14,9 +14,9 @@ export default Ember.Route.extend({
     }
 
     return this.store.query('schedule', {
-      orderBy: 'name',
-      startAt: params.team,
-      endAt: params.letter+"\uf8ff"
+      orderBy: 'home',
+      startAt: params.home,
+      endAt: params.away+"\uf8ff"
     });
   }
 
