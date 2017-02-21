@@ -1,42 +1,24 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-1">
-      {{#link-to (query-params limit='all' team='') class='btn btn-default btn-lg btn-block'}}All{{/link-to}}
-    </div>
-    <div class="col-md-1">
-      {{#link-to (query-params limit='abc') class='btn btn-default btn-lg btn-block'}}Abc{{/link-to}}
-    </div>
-
-    <div class="col-md-10">
-      {{#if limitAll}}
-        <div class="form-group">
-          {{input value=filter class="form-control input-lg" placeholder="Filter by team name"}}
+  {{#each model as |schedule|}}
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">{{schedule.game}} - {{schedule.home}} v {{schedule.away}}</h3>
         </div>
-      {{else}}
-          <div class="form-group">
-            {{abc-buttons}}
-          </div>
-      {{/if}}
-    </div>
-  </div>
-
-  <div class="row">
-    {{#each filteredList as |schedule|}}
-      <div class="col-md-4">
-        {{#schedule-item item=schedule}}
-          Venue: {{schedule.venue}} Date: {{schedule.date}}
-        {{/schedule-item}}
+        <div class="panel-body">
+          <span>
+            Detais of the upcoming game
+          </span>
+        </div>
+        <div class="panel-footer"><h6>
+          <span>
+            {{schedule.venue}}
+          </span>
+          <span class="pull-right">
+            {{schedule.date}}
+          </span></h6>
+        </div>
       </div>
-    {{else}}
-      {{#if model.isUpdating}}
-        {{spinner-cube}}
-      {{else}}
-        <div class="col-md-12 text-center">
-          <div class="alert alert-info">
-            Sorry, no result.
-          </div>
-        </div>
-      {{/if}}
-    {{/each}}
-  </div>
+    </div>
+  {{/each}}
 </div>
