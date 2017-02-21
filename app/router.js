@@ -7,19 +7,36 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('contact');
   this.route('stats');
   this.route('teams');
 
   this.route('schedule', function() {
     this.route('new');
-    this.route('swarm');
-    this.route('devils');
-    this.route('stampede');
-    this.route('thunder');
-    this.route('admirals');
+
+    this.route('admirals', function() {
+      this.route('new');
+      // this.route('home');
+      // this.route('away');
+    });
+
+    this.route('swarm', function() {
+      this.route('new');
+    });
+
+    this.route('devils', function() {
+      this.route('new');
+    });
+
+    this.route('stampede', function() {
+      this.route('new');
+    });
+
+    this.route('thunder', function() {
+      this.route('new');
+    });
   });
 
-  this.route('contact');
 });
 
 export default Router;

@@ -3,6 +3,6 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 
   model() {
-    return this.store.findAll('schedule.admirals');
+    return this.store.findAll('scheduleAdmirals');
   }
 });
