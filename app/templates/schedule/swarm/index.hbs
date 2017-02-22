@@ -1,21 +1,27 @@
+{{!-- <div class="container">
+  <ul class="nav nav-pills">
+    {{#link-to 'schedule.swarm.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+  </ul>
+</div> --}}
+
 <div class="container-fluid">
-  {{#each model as |schedule|}}
+  {{#each model as |scheduleSwarm|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">
-            <h4>{{schedule.game}} - {{schedule.home}} v {{schedule.away}}</h4>
+            <h4>{{scheduleSwarm.game}} - {{scheduleSwarm.home}} v {{scheduleSwarm.away}}</h4>
           </div>
         </div>
         <div class="panel-body">
-          Detais of the upcoming game
+          <span><p>Detais of the upcoming game</p></span>
         </div>
         <div class="panel-footer">
           <h6><span>
-            {{schedule.venue}}
+            {{scheduleSwarm.venue}}
           </span>
           <span class="pull-right">
-            {{schedule.date}}
+            {{scheduleSwarm.date}}
           </span></h6>
         </div>
       </div>

@@ -1,14 +1,14 @@
 <div class="container-fluid">
   <div class="well">
     <ul class="nav nav-pills nav-justified">
-      {{#link-to 'schedule.index' tagName="li"}}<a data-toggle="pill" href="">All Games</a>{{/link-to}}
-      <li><a data-toggle="pill" href="#swarm">Botany Swarm</a></li>
-      <li><a data-toggle="pill" href="#devils">Canterbury Red Devils</a></li>
-      <li><a data-toggle="pill" href="#thunder">Dunedin Thunder</a></li>
-      <li><a data-toggle="pill" href="stampede">Skycity Stampede</a></li>
-      <li><a data-toggle="pill" href="admirals">West Auckland Admirals</a></li>
-      {{!-- {{#link-to 'schedule.new' tagName="li"}}<a data-toggle="pill" href="">Add New</a>{{/link-to}} --}}
+      {{#link-to 'schedule.index' tagName="li"}}<a href>List all</a>{{/link-to}}
+      {{#link-to 'schedule.swarm' tagName="li"}}<a href>Botany Swarm</a>{{/link-to}}
+      {{#link-to 'schedule.reddevils' tagName="li"}}<a href>Canterbury Red Devils</a>{{/link-to}}
+      {{#link-to 'schedule.thunder' tagName="li"}}<a href>Dunedin Thunder</a>{{/link-to}}
+      {{#link-to 'schedule.stampede' tagName="li"}}<a href>Skycity Stampede</a>{{/link-to}}
+      {{#link-to 'schedule.admirals' tagName="li"}}<a href>West Auckland Admirals</a>{{/link-to}}
+      {{#link-to 'schedule.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
     </ul>
   </div>
-  {{outlet}}
 </div>
+{{outlet}}
