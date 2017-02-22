@@ -1,16 +1,16 @@
 {{!-- <div class="container">
   <ul class="nav nav-pills">
-    {{#link-to 'schedule.stampede.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+    {{#link-to 'schedule.swarm.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
   </ul>
 </div> --}}
 
 <div class="container-fluid">
-  {{#each model as |scheduleStampede|}}
+  {{#each model as |scheduleSwarm|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">
-            <h4>{{scheduleStampede.game}} - {{scheduleStampede.home}} v {{scheduleStampede.away}}</h4>
+            <h4>{{scheduleSwarm.game}} - {{scheduleSwarm.home}} v {{scheduleSwarm.away}}</h4>
           </div>
         </div>
         <div class="panel-body">
@@ -18,10 +18,10 @@
         </div>
         <div class="panel-footer">
           <h6><span>
-            {{scheduleStampede.venue}}
+            {{scheduleSwarm.venue}}
           </span>
           <span class="pull-right">
-            {{scheduleStampede.date}}
+            {{scheduleSwarm.date}}
           </span></h6>
         </div>
       </div>

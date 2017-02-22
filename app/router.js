@@ -15,15 +15,15 @@ Router.map(function() {
   this.route('schedule', function() {
     this.route('new');
 
-    this.route('admirals', function() {
-      this.route('new');
-    });
-
     this.route('swarm', function() {
       this.route('new');
     });
 
-    this.route('devils', function() {
+    this.route('reddevils', function() {
+      this.route('new');
+    });
+
+    this.route('thunder', function() {
       this.route('new');
     });
 
@@ -31,9 +31,10 @@ Router.map(function() {
       this.route('new');
     });
 
-    this.route('thunder', function() {
+    this.route('admirals', function() {
       this.route('new');
     });
+
   });
 // End Schedule Routes
 
