@@ -11,13 +11,12 @@ Router.map(function() {
   this.route('stats');
   this.route('teams');
 
+// Begin Schedule Routes
   this.route('schedule', function() {
     this.route('new');
 
     this.route('admirals', function() {
       this.route('new');
-      this.route('home');
-      this.route('away');
     });
 
     this.route('swarm', function() {
@@ -36,6 +35,7 @@ Router.map(function() {
       this.route('new');
     });
   });
+// End Schedule Routes
 
 });
 

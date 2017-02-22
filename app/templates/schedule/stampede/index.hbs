@@ -1,0 +1,30 @@
+<div class="container">
+  <ul class="nav nav-pills">
+    {{#link-to 'schedule.stampede.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+  </ul>
+</div>
+
+<div class="container-fluid">
+  {{#each model as |scheduleStampede|}}
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-title">
+            <h4>{{scheduleStampede.game}} - {{scheduleStampede.home}} v {{scheduleStampede.away}}</h4>
+          </div>
+        </div>
+        <div class="panel-body">
+          <span><p>Detais of the upcoming game</p></span>
+        </div>
+        <div class="panel-footer">
+          <h6><span>
+            {{scheduleStampede.venue}}
+          </span>
+          <span class="pull-right">
+            {{scheduleStampede.date}}
+          </span></h6>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
