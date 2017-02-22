@@ -16,8 +16,8 @@ Router.map(function() {
 
     this.route('admirals', function() {
       this.route('new');
-      // this.route('home');
-      // this.route('away');
+      this.route('home');
+      this.route('away');
     });
 
     this.route('swarm', function() {
