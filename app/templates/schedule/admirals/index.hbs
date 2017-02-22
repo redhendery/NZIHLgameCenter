@@ -1,17 +1,22 @@
-{{#link-to 'schedule.admirals.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
-
+{{!-- <div class="container">
+  <ul class="nav nav-pills">
+    {{#link-to 'schedule.admirals.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+  </ul>
+</div> --}}
 <div class="container-fluid">
   {{#each model as |scheduleAdmirals|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">{{scheduleAdmirals.game}} - {{scheduleAdmirals.home}} v {{scheduleAdmirals.away}}</h3>
+          <div class="panel-title">
+            <h4>{{scheduleAdmirals.game}} - {{scheduleAdmirals.home}} v {{scheduleAdmirals.away}}</h4>
+          </div>
         </div>
         <div class="panel-body">
           <span><p>Detais of the upcoming game</p></span>
         </div>
-        <div class="panel-footer"><h6>
-          <span>
+        <div class="panel-footer">
+          <h6><span>
             {{scheduleAdmirals.venue}}
           </span>
           <span class="pull-right">
