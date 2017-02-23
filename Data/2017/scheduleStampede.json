@@ -1,0 +1,132 @@
+{
+	"scheduleStampedes": {
+    "Game 01" : {
+      "away": "Canterbury Red Devils",
+      "date": "Friday, May 26th, 6:50pm",
+      "home": "Skycity Stampede",
+      "leagueGame": "Game 1",
+      "teamGame": "Game 01",
+      "venue": "Queenstown Ice Arena"
+    },
+    "Game 02" : {
+      "away": "Canterbury Red Devils",
+      "date": "Saturday, May 27th, 6:50pm",
+      "home": "Skycity Stampede",
+      "leagueGame": "Game 2",
+      "teamGame": "Game 02",
+      "venue": "Queenstown Ice Arena"
+    },
+    "Game 03" : {
+      "away": "Skycity Stampede",
+      "date": "Saturday, June 17th, 4:40pm",
+      "home": "Dunedin Thunder",
+      "leagueGame": "Game 9",
+      "teamGame": "Game 03",
+      "venue": "Dunedin Ice Stadium"
+    },
+    "Game 04" : {
+      "away": "Skycity Stampede",
+      "date": "Sunday, June 18th, 4:40pm",
+      "home": "Dunedin Thunder",
+      "leagueGame": "Game 10",
+      "teamGame": "Game 04",
+      "venue": "Dunedin Ice Stadium"
+    },
+    "Game 05" : {
+      "away" : "Botany Swarm",
+      "date" : "Friday, June 23rd, 7:40pm",
+      "home" : "Skycity Stampede",
+      "leagueGame": "Game 13",
+      "teamGame": "Game 5",
+      "venue": "Queenstown Ice Arena"
+    },
+    "Game 06" : {
+      "away" : "Botany Swarm",
+      "date" : "Saturday, June 24th, 6:50pm",
+      "home" : "Skycity Stampede",
+      "leagueGame": "Game 14",
+      "teamGame": "Game 6",
+      "venue": "Queenstown Ice Arena"
+    },
+    "Game 07" : {
+      "away" : "Skycity Stampede",
+      "date" : "Saturday, July 1st, 4:30pm",
+      "home" : "West Auckland Admirals",
+      "leagueGame": "Game 17",
+      "teamGame": "Game 7",
+      "venue": "Paradice Avondale"
+    },
+    "Game 08" : {
+      "away" : "Skycity Stampede",
+      "date" : "Sunday, July 2nd, 4:30pm",
+      "home" : "West Auckland Admirals",
+      "leagueGame": "Game 18",
+      "teamGame": "Game 8",
+      "venue": "Paradice Avondale"
+    },
+    "Game 09" : {
+      "away" : "Dunedin Thunder",
+      "date" : "Friday, July 7th, 6:50pm",
+      "home" : "Skycity Stampede",
+      "leagueGame": "Game 21",
+      "teamGame": "Game 9",
+      "venue": "Queenstown Ice Arena"
+    },
+    "Game 10" : {
+      "away" : "Dunedin Thunder",
+      "date" : "Saturday, July 8th, 6:50pm",
+      "home" : "Skycity Stampede",
+      "leagueGame": "Game 22",
+      "teamGame": "Game 10",
+      "venue": "Queenstown Ice Arena"
+    },
+    "Game 11" : {
+      "away" : "West Auckland Admirals",
+      "date" : "Friday, July 14th, 6:50pm",
+      "home" : "Skycity Stampede",
+			"leagueGame": "Game 24",
+			"teamGame": "Game 11",
+			"venue" : "Queenstown Ice Arena"
+    },
+    "Game 12" : {
+      "away" : "West Auckland Admirals",
+      "date" : "Saturday, July 15th, 6:50pm",
+      "home" : "Skycity Stampede",
+			"leagueGame": "Game 25",
+			"teamGame": "Game 12",
+			"venue" : "Queenstown Ice Arena"
+    },
+    "Game 13": {
+      "away": "Skycity Stampede",
+      "date": "Saturday, July 22nd, 4:45pm",
+      "home": "Botany Swarm",
+      "leagueGame": "Game 29",
+      "teamGame": "Game 13",
+      "venue": "Paradice Botany"
+    },
+    "Game 14": {
+      "away": "Skycity Stampede",
+      "date": "Sunday, July 23rd, 4:45pm",
+      "home": "Botany Swarm",
+      "leagueGame": "Game 30",
+      "teamGame": "Game 14",
+      "venue": "Paradice Botany"
+    },
+    "Game 15" : {
+      "away": "Skycity Stampede",
+      "date": "Saturday, August 5th, 4:45pm",
+      "home": "Canterbury Red Devils",
+      "leagueGame": "Game 37",
+      "teamGame": "Game 14",
+      "venue": "Christchurch Alpine Ice"
+    },
+    "Game 16" : {
+      "away": "Skycity Stampede",
+      "date": "Sunday, August 6th, 4:45pm",
+      "home": "Canterbury Red Devils",
+      "leagueGame": "Game 38",
+      "teamGame": "Game 16",
+      "venue": "Christchurch Alpine Ice"
+    }
+  }
+}

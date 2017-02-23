@@ -1,0 +1,132 @@
+{
+	"scheduleSwarms": {
+		"Game 01": {
+			"away": "Skycity Stampede",
+			"date": "June 4th, 4:45pm",
+			"home": "Botany Swarm",
+			"leagueGame": "Game 3",
+			"teamGame": "Game 1",
+			"venue": "Paradice Botany"
+		},
+		"Game 02": {
+			"away": "Skycity Stampede",
+			"date": "June 5th, 4:45pm",
+			"home": "Botany Swarm",
+			"leagueGame": "Game 4",
+			"teamGame": "Game 2",
+			"venue": "Paradice Botany"
+		},
+		"Game 03": {
+			"away": "Botany Swarm",
+			"date": "June 11th, 4:30pm",
+			"home": "West Auckland Admirals",
+			"leagueGame": "Game 7",
+			"teamGame": "Game 3",
+			"venue": "Paradice Avondale"
+		},
+		"Game 04": {
+			"away": "Botany Swarm",
+			"date": "June 12th, 4:30pm",
+			"home": "West Auckland Admirals",
+			"leagueGame": "Game 8",
+			"teamGame": "Game 4",
+			"venue": "Paradice Avondale"
+		},
+		"Game 05" : {
+      "away" : "Botany Swarm",
+      "date" : "June 18th, 6:00pm",
+      "home" : "Dunedin Thunder",
+			"leagueGame": "Game 11",
+			"teamGame": "Game 5",
+			"venue" : "Dunedin Ice Stadium"
+    },
+    "Game 06" : {
+      "away" : "Botany Swarm",
+      "date" : "June 19th, 1:00pm",
+      "home" : "Dunedin Thunder",
+			"leagueGame": "Game 12",
+			"teamGame": "Game 6",
+			"venue" : "Dunedin Ice Stadium"
+    },
+		"Game 07" : {
+      "away" : "Canterbury Red Devils",
+      "date" : "June 25th, 4:45pm",
+      "home" : "Botany Swarm",
+			"leagueGame": "Game 13",
+			"teamGame": "Game 7",
+			"venue": "Paradice Botany"
+    },
+    "Game 08" : {
+      "away" : "Canterbury Red Devils",
+      "date" : "June 26th, 4:45pm",
+      "home" : "Botany Swarm",
+			"leagueGame": "Game 14",
+			"teamGame": "Game 8",
+			"venue": "Paradice Botany"
+    },
+		"Game 09": {
+			"away": "Dunedin Thunder",
+			"date": "July 10th, 4:45pm",
+			"home": "Botany Swarm",
+			"leagueGame": "Game 21",
+			"teamGame": "Game 9",
+			"venue": "Paradice Botany"
+		},
+		"Game 10": {
+			"away": "Dunedin Thunder",
+			"date": "July 17th, 4:45pm",
+			"home": "Botany Swarm",
+			"leagueGame": "Game 22",
+			"teamGame": "Game 10",
+			"venue": "Paradice Botany"
+		},
+		"Game 11": {
+			"away": "West Auckland Admirals",
+			"date": "July 23rd, 4:30pm",
+			"home": "Botany Swarm",
+			"leagueGame": "Game 23",
+			"teamGame": "Game 11",
+			"venue": "Paradice Botany"
+		},
+		"Game 12": {
+			"away": "West Auckland Admirals",
+			"date": "July 24th, 4:30pm",
+			"home": "Botany Swarm",
+			"leagueGame": "Game 24",
+			"teamGame": "Game 12",
+			"venue": "Paradice Botany"
+		},
+		"Game 13" : {
+      "away" : "Botany Swarm",
+      "date" : "July 29th, 7:00pm",
+      "home" : "Skycity Stampede",
+			"leagueGame": "Game 31",
+			"teamGame": "Game 13",
+			"venue": "Queenstown Ice Arena"
+    },
+    "Game 14" : {
+      "away" : "Botany Swarm",
+      "date" : "July 30th, 7:00pm",
+      "home" : "Skycity Stampede",
+			"leagueGame": "Game 32",
+			"teamGame": "Game 14",
+			"venue": "Queenstown Ice Arena"
+    },
+		"Game 15" : {
+      "away" : "Botany Swarm",
+      "date" : "August 6th, 6:00pm",
+      "home" : "Canterbury Red Devils",
+			"leagueGame": "Game 35",
+			"teamGame": "Game 15",
+			"venue" : "Christchurch Alpine Ice"
+    },
+    "Game 16" : {
+      "away" : "Botany Swarm",
+      "date" : "August 7th, 2:30pm",
+      "home" : "Canterbury Red Devils",
+			"leagueGame": "Game 36",
+			"teamGame": "Game 16",
+			"venue" : "Christchurch Alpine Ice"
+    }
+	}
+}

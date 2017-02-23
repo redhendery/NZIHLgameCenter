@@ -11,7 +11,7 @@ Router.map(function() {
   this.route('stats');
   this.route('teams');
 
-// Begin Schedule Routes
+  // Begin Schedule Routes
   this.route('schedule', function() {
     this.route('new');
 
@@ -36,8 +36,9 @@ Router.map(function() {
     });
 
   });
-// End Schedule Routes
+  // End Schedule Routes
 
+  this.route('players');
 });
 
 export default Router;
