@@ -1,28 +1,28 @@
 {{!-- <div class="container">
   <ul class="nav nav-pills">
-    {{#link-to 'schedule.swarm.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+    {{#link-to 'schedule.Swarm.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
   </ul>
 </div> --}}
-
 <div class="container-fluid">
   {{#each model as |scheduleSwarm|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">
-            <h4>{{scheduleSwarm.teamGame}} - {{scheduleSwarm.home}} v {{scheduleSwarm.away}}</h4>
+            <h4 class="text-center">{{scheduleSwarm.teamGame}} - {{scheduleSwarm.home}} v {{scheduleSwarm.away}}</h4>
           </div>
         </div>
         <div class="panel-body">
           <div class="col-md-4">
-            <img class="img-responsive botany-schedule pull-right" src="https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4" alt="Botany Swarm">
+            <img class="home-logo" src="{{scheduleSwarm.homeLogo}}" alt="{{scheduleSwarm.home}}">
           </div>
           <div class="col-md-4">
             <p class="text-center">Detais of the upcoming game</p>
             <p class="text-center">More Text</p>
+            <p class="text-center">Even More Text</p>
           </div>
           <div class="col-md-4">
-            <img class="img-responsive admirals-schedule" src="https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1" alt="West Auckland Admirals">
+            <img class="away-logo" src="{{scheduleSwarm.awayLogo}}" alt="{{scheduleSwarm.away}}">
           </div>
         </div>
         <div class="panel-footer">

@@ -4,11 +4,21 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">
-            <h4>{{schedule.leagueGame}} - {{schedule.home}} v {{schedule.away}}</h4>
+            <h4 class="text-center">{{schedule.leagueGame}} - {{schedule.home}} v {{schedule.away}}</h4>
           </div>
         </div>
         <div class="panel-body">
-          Detais of the upcoming game
+          <div class="col-md-4">
+            <img class="home-logo" src="{{schedule.homeLogo}}" alt="{{schedule.home}}">
+          </div>
+          <div class="col-md-4">
+            <p class="text-center">Detais of the upcoming game</p>
+            <p class="text-center">More Text</p>
+            <p class="text-center">Even More Text</p>
+          </div>
+          <div class="col-md-4">
+            <img class="away-logo" src="{{schedule.awayLogo}}" alt="{{schedule.away}}">
+          </div>
         </div>
         <div class="panel-footer">
           <h6><span>

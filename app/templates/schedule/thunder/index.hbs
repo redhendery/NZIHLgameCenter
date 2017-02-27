@@ -1,28 +1,28 @@
 {{!-- <div class="container">
   <ul class="nav nav-pills">
-    {{#link-to 'schedule.thunder.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+    {{#link-to 'schedule.Thunder.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
   </ul>
 </div> --}}
-
 <div class="container-fluid">
   {{#each model as |scheduleThunder|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">
-            <h4>{{scheduleThunder.teamGame}} - {{scheduleThunder.home}} v {{scheduleThunder.away}}</h4>
+            <h4 class="text-center">{{scheduleThunder.teamGame}} - {{scheduleThunder.home}} v {{scheduleThunder.away}}</h4>
           </div>
         </div>
         <div class="panel-body">
           <div class="col-md-4">
-            <img class="img-responsive thunder-schedule" src="https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388" alt="Dunedin Thunder">
+            <img class="home-logo" src="{{scheduleThunder.homeLogo}}" alt="{{scheduleThunder.home}}">
           </div>
           <div class="col-md-4">
             <p class="text-center">Detais of the upcoming game</p>
             <p class="text-center">More Text</p>
+            <p class="text-center">Even More Text</p>
           </div>
           <div class="col-md-4">
-            <img class="img-responsive botany-schedule pull-right" src="https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4" alt="Botany Swarm">
+            <img class="away-logo" src="{{scheduleThunder.awayLogo}}" alt="{{scheduleThunder.away}}">
           </div>
         </div>
         <div class="panel-footer">
@@ -37,5 +37,3 @@
     </div>
   {{/each}}
 </div>
-
-{{outlet}}
