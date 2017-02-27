@@ -1,39 +1,37 @@
 {{!-- <div class="container">
   <ul class="nav nav-pills">
-    {{#link-to 'schedule.Reddevils.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
+    {{#link-to 'schedule.scheduleAdmiralsils.new' tagName="li"}}<a href>Add New</a>{{/link-to}}
   </ul>
 </div> --}}
 <div class="container-fluid">
-  {{#each model as |scheduleReddevils|}}
+  {{#each model as |scheduleAdmirals|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
           <div class="panel-title">
-            <h4 class="text-center">{{scheduleReddevils.teamGame}} - {{scheduleReddevils.home}} v {{scheduleReddevils.away}}</h4>
+            <h4 class="text-center">{{scheduleAdmirals.teamGame}} - {{scheduleAdmirals.home}} v {{scheduleAdmirals.away}}</h4>
           </div>
         </div>
         <div class="panel-body">
-          <div class="col-md-4">
-            <img class="home-logo" src="{{scheduleReddevils.homeLogo}}" alt="{{scheduleReddevils.home}}">
-          </div>
-          <div class="col-md-4">
-            <p class="text-center">Detais of the upcoming game</p>
-            <p class="text-center">More Text</p>
-            <p class="text-center">Even More Text</p>
-          </div>
-          <div class="col-md-4">
-            <img class="away-logo" src="{{scheduleReddevils.awayLogo}}" alt="{{scheduleReddevils.away}}">
-          </div>
+          <span class="pull-left">
+            <img class="home-logo" src="{{scheduleAdmirals.homeLogo}}" alt="{{scheduleAdmirals.home}}">
+          </span>
+          <span>
+            Details of game
+          </span>
+          <span class="pull-right">
+            <img class="away-logo" src="{{scheduleAdmirals.awayLogo}}" alt="{{scheduleAdmirals.away}}">
+          </span>
         </div>
         <div class="panel-footer">
           <h6><span class="pull-left">
-            {{scheduleReddevils.venue}}
+            {{scheduleAdmirals.venue}}
           </span>
           <span>
             Tickets
           </span>
           <span class="pull-right">
-            {{scheduleReddevils.date}}
+            {{scheduleAdmirals.date}}
           </span></h6>
         </div>
       </div>
