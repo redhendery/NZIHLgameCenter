@@ -88,7 +88,7 @@
 			"teamGame": "Game 9",
 			"venue": "Paradice Botany",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
-			"awayogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
 		},
 		"Game 10": {
 			"away": "Dunedin Thunder",
@@ -98,7 +98,7 @@
 			"teamGame": "Game 9",
 			"venue": "Paradice Botany",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
-			"awayogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
 		},
 		"Game 11": {
 			"away": "Skycity Stampede",

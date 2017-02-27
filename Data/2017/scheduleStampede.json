@@ -88,7 +88,7 @@
       "teamGame": "Game 9",
       "venue": "Queenstown Ice Arena",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
-			"awayogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
     },
     "Game 10" : {
       "away" : "Dunedin Thunder",
@@ -98,7 +98,7 @@
       "teamGame": "Game 10",
       "venue": "Queenstown Ice Arena",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
-			"awayogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
     },
     "Game 11" : {
       "away" : "West Auckland Admirals",

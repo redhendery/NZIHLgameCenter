@@ -109,63 +109,36 @@ h3 {
 // Schedule Page Styling Start
 @media (max-width:499px) {
   .home-logo {
-    max-width: 130px;
+    max-width: 140px;
     text-align: center;
   }
 
   .away-logo {
-    max-width: 130px;
+    max-width: 140px;
     text-align: center;
   }
 }
 
 @media (min-width:500px) {
   .home-logo {
-    max-width: 130px;
+    max-width: 140px;
     text-align: center;
   }
 
   .away-logo {
-    max-width: 130px;
+    max-width: 140px;
     text-align: center;
   }
 }
 
 .panel-body {
   min-height: 150px;
+  text-align: center;
 }
 
-// .home-logo {
-//   max-width: 130px;
-//   max-height: 130px;
-// }
-//
-// .away-logo {
-//   max-width: 130px;
-//   max-height: 130px;
-// }
-// .admimrals-schedule {
-//   max-width: 130px;
-//   max-height: 130px;
-// }
-//
-// .devils-schedule {
-//   max-width: 130px;
-//   max-height: 130px;
-// }
-//
-// .stampede-schedule {
-//   max-width: 130px;
-//   max-height: 130px;
-// }
-//
-// .swarm-schedule {
-//   max-width: 130px;
-//   max-height: 130px;
-// }
-//
-// .thunder-schedule {
-// }
+.panel-footer {
+  text-align: center;
+}
 // Schedule Page Styling End
 
 // Footer placement start
