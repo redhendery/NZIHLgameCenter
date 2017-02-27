@@ -6,7 +6,9 @@
 			"home": "West Auckland Admirals",
 			"leagueGame": "Game 3",
 			"teamGame": "Game 1",
-			"venue": "Paradice Avondale"
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4"
 		},
 		"Game 02": {
 			"away": "Botany Swarm",
@@ -14,111 +16,139 @@
 			"home": "West Auckland Admirals",
 			"leagueGame": "Game 4",
 			"teamGame": "Game 2",
-			"venue": "Paradice Avondale"
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4"
 		},
-    "Game 03" : {
-      "away" : "West Auckland Admirals",
-      "date" : "Saturday, June 10th, 4:30pm",
-      "home" : "Dunedin Thunder",
+		"Game 03": {
+			"away": "West Auckland Admirals",
+			"date": "Saturday, June 10th, 4:30pm",
+			"home": "Dunedin Thunder",
 			"leagueGame": "Game 5",
 			"teamGame": "Game 3",
-			"venue" : "Dunedin Ice Stadium"
-    },
-    "Game 04" : {
-      "away" : "West Auckland Admirals",
-      "date" : "Saturday, June 11th, 4:30pm",
-      "home" : "Dunedin Thunder",
+			"venue": "Dunedin Ice Stadium",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
+		},
+		"Game 04": {
+			"away": "West Auckland Admirals",
+			"date": "Saturday, June 11th, 4:30pm",
+			"home": "Dunedin Thunder",
 			"leagueGame": "Game 6",
 			"teamGame": "Game 4",
-			"venue" : "Dunedin Ice Stadium"
-    },
-    "Game 05": {
-      "away": "Canterbury Red Devils",
-      "date": "Saturday, June 17th, 4:30pm",
-      "home": "West Auckland Admirals",
-      "leagueGame": "Game 11",
-      "teamGame": "Game 5",
-      "venue": "Paradice Avondale"
-    },
-    "Game 06": {
-      "away": "Canterbury Red Devils",
-      "date": "Sunday, June 18th, 4:30pm",
-      "home": "West Auckland Admirals",
-      "leagueGame": "Game 12",
-      "teamGame": "Game 6",
-      "venue": "Paradice Avondale"
-    },
-    "Game 07" : {
-      "away" : "Skycity Stampede",
-      "date" : "Saturday, July 1st, 4:30pm",
-      "home" : "West Auckland Admirals",
+			"venue": "Dunedin Ice Stadium",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
+		},
+		"Game 05": {
+			"away": "Canterbury Red Devils",
+			"date": "Saturday, June 17th, 4:30pm",
+			"home": "West Auckland Admirals",
+			"leagueGame": "Game 11",
+			"teamGame": "Game 5",
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
+		},
+		"Game 06": {
+			"away": "Canterbury Red Devils",
+			"date": "Sunday, June 18th, 4:30pm",
+			"home": "West Auckland Admirals",
+			"leagueGame": "Game 12",
+			"teamGame": "Game 6",
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
+		},
+		"Game 07": {
+			"away": "Skycity Stampede",
+			"date": "Saturday, July 1st, 4:30pm",
+			"home": "West Auckland Admirals",
 			"leagueGame": "Game 17",
 			"teamGame": "Game 7",
-			"venue": "Paradice Avondale"
-    },
-    "Game 08" : {
-      "away" : "Skycity Stampede",
-      "date" : "Sunday, July 2nd, 4:30pm",
-      "home" : "West Auckland Admirals",
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
+		},
+		"Game 08": {
+			"away": "Skycity Stampede",
+			"date": "Sunday, July 2nd, 4:30pm",
+			"home": "West Auckland Admirals",
 			"leagueGame": "Game 18",
 			"teamGame": "Game 8",
-			"venue": "Paradice Avondale"
-    },
-    "Game 09" : {
-      "away" : "West Auckland Admirals",
-      "date" : "Saturday, July 8th, 4:35pm",
-      "home" : "Canterbury Red Devils",
-      "leagueGame": "Game 23",
-      "teamGame": "Game 9",
-      "venue" : "Christchurch Alpine Ice"
-    },
-    "Game 10" : {
-      "away" : "West Auckland Admirals",
-      "date" : "Sunday, July 9th 2017, 4:30pm",
-      "home" : "Canterbury Red Devils",
-      "leagueGame": "Game 24",
-      "teamGame": "Game 10",
-      "venue" : "Christchurch Alpine Ice"
-    },
-		"Game 11" : {
-      "away" : "West Auckland Admirals",
-      "date" : "Friday, July 14th, 6:50pm",
-      "home" : "Skycity Stampede",
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
+		},
+		"Game 09": {
+			"away": "West Auckland Admirals",
+			"date": "Saturday, July 8th, 4:35pm",
+			"home": "Canterbury Red Devils",
+			"leagueGame": "Game 23",
+			"teamGame": "Game 9",
+			"venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
+		},
+		"Game 10": {
+			"away": "West Auckland Admirals",
+			"date": "Sunday, July 9th 2017, 4:30pm",
+			"home": "Canterbury Red Devils",
+			"leagueGame": "Game 24",
+			"teamGame": "Game 10",
+			"venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
+		},
+		"Game 11": {
+			"away": "West Auckland Admirals",
+			"date": "Friday, July 14th, 6:50pm",
+			"home": "Skycity Stampede",
 			"leagueGame": "Game 25",
 			"teamGame": "Game 11",
-			"venue" : "Queenstown Ice Arena"
-    },
-    "Game 12" : {
-      "away" : "West Auckland Admirals",
-      "date" : "Saturday, July 15th, 6:50pm",
-      "home" : "Skycity Stampede",
+			"venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
+		},
+		"Game 12": {
+			"away": "West Auckland Admirals",
+			"date": "Saturday, July 15th, 6:50pm",
+			"home": "Skycity Stampede",
 			"leagueGame": "Game 26",
 			"teamGame": "Game 12",
-			"venue" : "Queenstown Ice Arena"
-    },
-    "Game 13": {
-      "away": "Dunedin Thunder",
-      "date": "Saturday July 29th, 4:45pm",
-      "home": "West Auckland Admirals",
-      "leagueGame": "Game 33",
-      "teamGame": "Game 13",
-      "venue": "Paradice Avondale"
-    },
-    "Game 14": {
-      "away": "Dunedin Thunder",
-      "date": "Sunday July 30th, 4:45pm",
-      "home": "West Auckland Admirals",
-      "leagueGame": "Game 34",
-      "teamGame": "Game 14",
-      "venue": "Paradice Avondale"
-    },
+			"venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
+		},
+		"Game 13": {
+			"away": "Dunedin Thunder",
+			"date": "Saturday July 29th, 4:45pm",
+			"home": "West Auckland Admirals",
+			"leagueGame": "Game 33",
+			"teamGame": "Game 13",
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+		},
+		"Game 14": {
+			"away": "Dunedin Thunder",
+			"date": "Sunday July 30th, 4:45pm",
+			"home": "West Auckland Admirals",
+			"leagueGame": "Game 34",
+			"teamGame": "Game 14",
+			"venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+		},
 		"Game 15": {
 			"away": "West Auckland Admirals",
 			"date": "Saturday August 5th, 4:45pm",
 			"home": "Botany Swarm",
 			"leagueGame": "Game 39",
 			"teamGame": "Game 15",
-			"venue": "Paradice Botany"
+			"venue": "Paradice Botany",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
 		},
 		"Game 16": {
 			"away": "West Auckland Admirals",
@@ -126,7 +156,9 @@
 			"home": "Botany Swarm",
 			"leagueGame": "Game 40",
 			"teamGame": "Game 16",
-			"venue": "Paradice Botany"
+			"venue": "Paradice Botany",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
 		}
 	}
 }

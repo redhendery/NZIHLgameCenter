@@ -6,7 +6,9 @@
       "home": "Skycity Stampede",
       "leagueGame": "Game 1",
       "teamGame": "Game 01",
-      "venue": "Queenstown Ice Arena"
+      "venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 02" : {
       "away": "Canterbury Red Devils",
@@ -14,7 +16,9 @@
       "home": "Skycity Stampede",
       "leagueGame": "Game 2",
       "teamGame": "Game 02",
-      "venue": "Queenstown Ice Arena"
+      "venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 03" : {
       "away": "Skycity Stampede",
@@ -22,7 +26,9 @@
       "home": "Dunedin Thunder",
       "leagueGame": "Game 9",
       "teamGame": "Game 03",
-      "venue": "Dunedin Ice Stadium"
+      "venue": "Dunedin Ice Stadium",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 04" : {
       "away": "Skycity Stampede",
@@ -30,7 +36,9 @@
       "home": "Dunedin Thunder",
       "leagueGame": "Game 10",
       "teamGame": "Game 04",
-      "venue": "Dunedin Ice Stadium"
+      "venue": "Dunedin Ice Stadium",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 05" : {
       "away" : "Botany Swarm",
@@ -38,7 +46,9 @@
       "home" : "Skycity Stampede",
       "leagueGame": "Game 13",
       "teamGame": "Game 5",
-      "venue": "Queenstown Ice Arena"
+      "venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4"
     },
     "Game 06" : {
       "away" : "Botany Swarm",
@@ -46,7 +56,9 @@
       "home" : "Skycity Stampede",
       "leagueGame": "Game 14",
       "teamGame": "Game 6",
-      "venue": "Queenstown Ice Arena"
+      "venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4"
     },
     "Game 07" : {
       "away" : "Skycity Stampede",
@@ -54,7 +66,9 @@
       "home" : "West Auckland Admirals",
       "leagueGame": "Game 17",
       "teamGame": "Game 7",
-      "venue": "Paradice Avondale"
+      "venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 08" : {
       "away" : "Skycity Stampede",
@@ -62,7 +76,9 @@
       "home" : "West Auckland Admirals",
       "leagueGame": "Game 18",
       "teamGame": "Game 8",
-      "venue": "Paradice Avondale"
+      "venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 09" : {
       "away" : "Dunedin Thunder",
@@ -70,7 +86,9 @@
       "home" : "Skycity Stampede",
       "leagueGame": "Game 21",
       "teamGame": "Game 9",
-      "venue": "Queenstown Ice Arena"
+      "venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
     },
     "Game 10" : {
       "away" : "Dunedin Thunder",
@@ -78,23 +96,29 @@
       "home" : "Skycity Stampede",
       "leagueGame": "Game 22",
       "teamGame": "Game 10",
-      "venue": "Queenstown Ice Arena"
+      "venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
     },
     "Game 11" : {
       "away" : "West Auckland Admirals",
       "date" : "Friday, July 14th, 6:50pm",
       "home" : "Skycity Stampede",
-			"leagueGame": "Game 24",
+			"leagueGame": "Game 25",
 			"teamGame": "Game 11",
-			"venue" : "Queenstown Ice Arena"
+			"venue" : "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
     },
     "Game 12" : {
       "away" : "West Auckland Admirals",
       "date" : "Saturday, July 15th, 6:50pm",
       "home" : "Skycity Stampede",
-			"leagueGame": "Game 25",
+			"leagueGame": "Game 26",
 			"teamGame": "Game 12",
-			"venue" : "Queenstown Ice Arena"
+			"venue" : "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
     },
     "Game 13": {
       "away": "Skycity Stampede",
@@ -102,7 +126,9 @@
       "home": "Botany Swarm",
       "leagueGame": "Game 29",
       "teamGame": "Game 13",
-      "venue": "Paradice Botany"
+      "venue": "Paradice Botany",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 14": {
       "away": "Skycity Stampede",
@@ -110,7 +136,9 @@
       "home": "Botany Swarm",
       "leagueGame": "Game 30",
       "teamGame": "Game 14",
-      "venue": "Paradice Botany"
+      "venue": "Paradice Botany",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 15" : {
       "away": "Skycity Stampede",
@@ -118,7 +146,9 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 37",
       "teamGame": "Game 14",
-      "venue": "Christchurch Alpine Ice"
+      "venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 16" : {
       "away": "Skycity Stampede",
@@ -126,7 +156,9 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 38",
       "teamGame": "Game 16",
-      "venue": "Christchurch Alpine Ice"
+      "venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     }
   }
 }

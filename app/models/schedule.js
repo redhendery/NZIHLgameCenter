@@ -6,4 +6,6 @@ export default DS.Model.extend({
   away: DS.attr('string'),
   venue: DS.attr('string'),
   date: DS.attr('string'),
+  homeLogo: DS.attr('string'),
+  awayLogo: DS.attr('string')
 });

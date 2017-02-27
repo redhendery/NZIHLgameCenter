@@ -1,28 +1,34 @@
 {
-	"scheduleAdmirals": {
-    "Game 01" : {
-      "away": "Canterbury Red Devils",
-      "date": "Friday, May 26th, 6:50pm",
-      "home": "Skycity Stampede",
-      "leagueGame": "Game 1",
-      "teamGame": "Game 1",
-      "venue": "Queenstown Ice Arena"
-    },
-    "Game 02" : {
-      "away": "Canterbury Red Devils",
-      "date": "Saturday, May 27th, 6:50pm",
-      "home": "Skycity Stampede",
-      "leagueGame": "Game 2",
-      "teamGame": "Game 2",
-      "venue": "Queenstown Ice Arena"
-    },
+	"scheduleReddevils": {
+		"Game 01" : {
+			"away": "Canterbury Red Devils",
+			"date": "Friday, May 26th, 6:50pm",
+			"home": "Skycity Stampede",
+			"leagueGame": "Game 1",
+			"teamGame": "Game 01",
+			"venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
+		},
+		"Game 02" : {
+			"away": "Canterbury Red Devils",
+			"date": "Saturday, May 27th, 6:50pm",
+			"home": "Skycity Stampede",
+			"leagueGame": "Game 2",
+			"teamGame": "Game 02",
+			"venue": "Queenstown Ice Arena",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
+		},
     "Game 03": {
       "away" : "Canterbury Red Devils",
       "date" : "Saturday, June 10th, 4:45pm",
       "home" : "Botany Swarm",
       "leagueGame": "Game 7",
       "teamGame": "Game 3",
-      "venue": "Paradice Botany"
+      "venue": "Paradice Botany",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 04": {
       "away" : "Canterbury Red Devils",
@@ -30,7 +36,9 @@
       "home" : "Botany Swarm",
       "leagueGame": "Game 8",
       "teamGame": "Game 4",
-      "venue": "Paradice Botany"
+      "venue": "Paradice Botany",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 05": {
       "away": "Canterbury Red Devils",
@@ -38,7 +46,9 @@
       "home": "West Auckland Admirals",
       "leagueGame": "Game 11",
       "teamGame": "Game 5",
-      "venue": "Paradice Avondale"
+      "venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 06": {
       "away": "Canterbury Red Devils",
@@ -46,7 +56,9 @@
       "home": "West Auckland Admirals",
       "leagueGame": "Game 12",
       "teamGame": "Game 6",
-      "venue": "Paradice Avondale"
+      "venue": "Paradice Avondale",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 07": {
       "away": "Dunedin Thunder",
@@ -54,7 +66,10 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 15",
       "teamGame": "Game 7",
-      "venue" : "Christchurch Alpine Ice"
+      "venue" : "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+
     },
     "Game 08": {
       "away": "Dunedin Thunder",
@@ -62,7 +77,10 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 16",
       "teamGame": "Game 8",
-      "venue" : "Christchurch Alpine Ice"
+      "venue" : "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388"
+
     },
     "Game 09" : {
       "away" : "West Auckland Admirals",
@@ -70,7 +88,9 @@
       "home" : "Canterbury Red Devils",
       "leagueGame": "Game 23",
       "teamGame": "Game 9",
-      "venue" : "Christchurch Alpine Ice"
+      "venue" : "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
     },
     "Game 10" : {
       "away" : "West Auckland Admirals",
@@ -78,7 +98,9 @@
       "home" : "Canterbury Red Devils",
       "leagueGame": "Game 24",
       "teamGame": "Game 10",
-      "venue" : "Christchurch Alpine Ice"
+      "venue" : "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=9477db14-9268-4a4f-82cf-52d6dc56a8a1"
     },
     "Game 11" : {
       "away" : "Canterbury Red Devils",
@@ -86,7 +108,9 @@
       "home" : "Dunedin Thunder",
       "leagueGame": "Game 31",
       "teamGame": "Game 11",
-      "venue" : "Dunedin Ice Stadium"
+      "venue" : "Dunedin Ice Stadium",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 12" : {
       "away" : "Canterbury Red Devils",
@@ -94,7 +118,9 @@
       "home" : "Dunedin Thunder",
       "leagueGame": "Game 32",
       "teamGame": "Game 12",
-      "venue" : "Dunedin Ice Stadium"
+      "venue" : "Dunedin Ice Stadium",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=dbd148dd-06c1-48e4-ac63-ca77396d8388",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0"
     },
     "Game 13" : {
       "away": "Botany Swarm",
@@ -102,7 +128,10 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 35",
       "teamGame": "Game 13",
-      "venue": "Christchurch Alpine Ice"
+      "venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4"
+
     },
     "Game 14" : {
       "away": "Botany Swarm",
@@ -110,15 +139,20 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 36",
       "teamGame": "Game 14",
-      "venue": "Christchurch Alpine Ice"
+      "venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=ca7193a4-9db5-4bf1-9d04-90aeda03e4b4"
+
     },
-    "Game 15" : {
+		"Game 15" : {
       "away": "Skycity Stampede",
       "date": "Saturday, August 5th, 4:45pm",
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 37",
       "teamGame": "Game 14",
-      "venue": "Christchurch Alpine Ice"
+      "venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     },
     "Game 16" : {
       "away": "Skycity Stampede",
@@ -126,7 +160,9 @@
       "home": "Canterbury Red Devils",
       "leagueGame": "Game 38",
       "teamGame": "Game 16",
-      "venue": "Christchurch Alpine Ice"
+      "venue": "Christchurch Alpine Ice",
+			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=a158379a-d785-49c3-850a-46a8dd84e5d0",
+			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=596ba4c6-0476-4a47-8857-57dbdfa302af"
     }
   }
 }
