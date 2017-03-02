@@ -1,6 +1,34 @@
 <div class="container-fluid">
-  <div class="col-lg-8">
-    Team Icons go here
+  <div class="row-lg-6">
+    <div class="col-lg-8">
+      <div class="col-sm-6">
+        {{#link-to 'teams.swarm' tagName="li"}}
+          <a href=""><img class="img-responsive swarm" src="assets/images/swarmRound.png"></a>
+        {{/link-to}}
+      </div>
+      <div class="col-sm-6">
+        {{#link-to 'teams.reddevils' tagName="li"}}
+          <a href=""><img class="img-responsive redDevils" src="assets/images/redDevilsRound.png"></a>
+        {{/link-to}}
+      </div>
+    </div>
+  </div>
+  <div class="row-lg-6">
+    <div class="col-sm-4">
+      {{#link-to 'teams.stampede' tagName="li"}}
+        <a href=""><img class="img-responsive stampede" src="assets/images/stampedeRound.png"></a>
+      {{/link-to}}
+    </div>
+    <div class="col-sm-4">
+      {{#link-to 'teams.thunder' tagName="li"}}
+        <a href=""><img class="img-responsive thunder" src="assets/images/thunderRound.png"></a>
+      {{/link-to}}
+    </div>
+    <div class="col-sm-4">
+      {{#link-to 'teams.admirals' tagName="li"}}
+        <a href=""><img class="img-responsive admirals" src="assets/images/admiralsRound.png"></a>
+      {{/link-to}}
+    </div>
   </div>
   <div class="col-lg-4">
     {{twitter-feed}}
