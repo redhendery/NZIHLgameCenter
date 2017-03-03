@@ -11,15 +11,15 @@ Router.map(function() {
   this.route('stats');
 
   // Begin Team Routes
-  this.route('teams', function() {
-    this.route('swarm');
-    this.route('reddevils');
-    this.route('thunder');
-    this.route('stampede');
-    this.route('admirals');
-  });
+  this.route('teams');
+
+  this.route('swarm', { path: '/teams/swarm'});
+  this.route('reddevils', { path: 'teams/reddevils' });
+  this.route('stampede', { path: 'teams/stampede' });
+  this.route('thunder', { path: 'teams/thunder' });
+  this.route('admirals', { path: 'teams/admirals' });
   // End Team Routes
-  
+
   // Begin Schedule Routes
   this.route('schedule', function() {
     this.route('new');
