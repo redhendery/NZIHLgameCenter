@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:teams/reddevils', 'Unit | Route | teams/reddevils', {
+moduleFor('route:admirals', 'Unit | Route | admirals', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
