@@ -9,8 +9,17 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('contact');
   this.route('stats');
-  this.route('teams');
 
+  // Begin Team Routes
+  this.route('teams', function() {
+    this.route('swarm');
+    this.route('reddevils');
+    this.route('thunder');
+    this.route('stampede');
+    this.route('admirals');
+  });
+  // End Team Routes
+  
   // Begin Schedule Routes
   this.route('schedule', function() {
     this.route('new');
