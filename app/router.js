@@ -47,7 +47,15 @@ Router.map(function() {
   });
   // End Schedule Routes
 
-  this.route('players');
+  // Begin Player Routes
+  this.route('players', function() {
+    this.route('admirals');
+    this.route('swarm');
+    this.route('thunder');
+    this.route('stampede');
+    this.route('reddevils');
+  });
+  // End Player Routes
 });
 
 export default Router;
