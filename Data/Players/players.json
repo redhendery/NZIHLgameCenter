@@ -1,0 +1,34 @@
+{
+	"players": {
+		"redDevils": {
+			"name": "Chris Eaden",
+			"goals": 100,
+			"assists": 50,
+			"points": 150
+		},
+		"swarm": {
+			"name": "Robyn Vortanov",
+			"goals": 10,
+			"assists": 10,
+			"points": 20
+		},
+		"stampede": {
+			"name": "Matt Schneider",
+			"goals": 80,
+			"assists": 120,
+			"points": 200
+		},
+		"admirals": {
+			"name": "Jake Radcliffe",
+			"goals": 30,
+			"assists": 28,
+			"points": 58
+		},
+		"thunder": {
+			"name": "Gints Leitis",
+			"goals": 12,
+			"assists": 5,
+			"points": 17
+		}
+	}
+}
