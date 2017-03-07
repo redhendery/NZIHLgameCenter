@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  {{#each model as |schedule|}}
+{{!-- <div class="container-fluid">
+  {{#each model as |schedules|}}
     <div class="col-md-6">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -32,4 +32,7 @@
       </div>
     </div>
   {{/each}}
-</div>
+</div> --}}
+{{#each model as |schedules|}}
+  {{schedule.leagueGame}}
+{{/each}}
