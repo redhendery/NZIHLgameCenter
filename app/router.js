@@ -22,28 +22,11 @@ Router.map(function() {
 
   // Begin Schedule Routes
   this.route('schedule', function() {
-    this.route('new');
-
-    this.route('swarm', function() {
-      this.route('new');
-    });
-
-    this.route('reddevils', function() {
-      this.route('new');
-    });
-
-    this.route('thunder', function() {
-      this.route('new');
-    });
-
-    this.route('stampede', function() {
-      this.route('new');
-    });
-
-    this.route('admirals', function() {
-      this.route('new');
-    });
-
+    this.route('swarm');
+    this.route('reddevils');
+    this.route('thunder');
+    this.route('stampede');
+    this.route('admirals');
   });
   // End Schedule Routes
 
