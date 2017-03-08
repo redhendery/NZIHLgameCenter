@@ -27,6 +27,7 @@ Router.map(function() {
     this.route('thunder');
     this.route('stampede');
     this.route('admirals');
+    this.route('show');
   });
   // End Schedule Routes
 

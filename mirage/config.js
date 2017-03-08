@@ -1,9 +1,7 @@
 export default function() {
-  this.namespace = 'api';
+  this.namespace = '/api';
 
-  this.get('/schedules', () => {
-    return {
-      data: [{
+  let schedules = [{
         type: "schedules",
         id: "Game 01",
         attributes: {
@@ -483,7 +481,20 @@ export default function() {
     			"home-logo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=6b9f1231-5837-4dde-9c31-8db2fedb96b8",
     			"away-logo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/admirals.png?alt=media&token=4effc8b6-fffa-4d57-8159-2ba45e630a60"
         }
-      }]
-    };
-  });
+      }];
+
+    this.get('/schedules', function(db, request) {
+      if(request.queryParams.team !== undefined) {
+        let filteredTeam = schedules.filter(function(i) {
+          return i.attributes.team.toLowerCase().indexOf(request.queryParams.team.toLowerCase()) !== -1;
+        });
+        return { data: filteredTeam };
+      } else {
+        return { data: schedules };
+      }
+    });
+
+    this.get('/schedules/:id', function (db, request) {
+      return { data: schedules.find((schedule) => request.params.id === schedule.id) };
+ });
 }

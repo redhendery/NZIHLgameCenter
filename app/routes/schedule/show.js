@@ -2,6 +2,6 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    return this.get('store').findAll('schedules');
+    return this.get('store').findRecord('schedule', params.schedule_id);
   }
 });
