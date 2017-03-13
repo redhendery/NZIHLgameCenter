@@ -4,17 +4,13 @@ export default Ember.Component.extend({
   classNames: ['schedule-filter'],
   value: '',
 
-  init() {
-    this._super(...arguments);
-    this.get('filter')('').then((results) => this.set('results', results));
-  },
-
-  actions: {
-    handleFilterEntry() {
-      let filterInputValue = this.get('value');
-      let filterAction = this.get('filter');
-      filterAction(filterInputValue).then((filterResults) => this.set('results', filterResults));
+  results: Ember.computed('model','value',function(){
+    let result = '';
+    if(Ember.isPresent(this.get('value'))){
+        result = this.get('model').filterBy('team',this.get('value'));
+    } else {
+        result = this.get('model');
     }
-  }
-
+    return result;
+  })
 });
