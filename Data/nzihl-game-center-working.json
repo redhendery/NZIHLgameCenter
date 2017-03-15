@@ -1,34 +1,200 @@
 {
 	"players": {
-		"redDevils": {
+		"Chris Eaden": {
 			"name": "Chris Eaden",
-			"goals": 100,
-			"assists": 50,
-			"points": 150
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Forward",
+			"gp": 16,
+			"goals": 14,
+			"assists": 14,
+			"points": 28,
+			"pim": 10,
+			"plusMinus": 9
 		},
-		"swarm": {
-			"name": "Robyn Vortanov",
-			"goals": 10,
-			"assists": 10,
-			"points": 20
+		"Brad Apps": {
+			"name": "Brad Apps",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Forward",
+			"gp": 16,
+			"goals": 4,
+			"assists": 4,
+			"points": 8,
+			"pim": 8,
+			"plusMinus": -9
 		},
-		"stampede": {
-			"name": "Matt Schneider",
-			"goals": 80,
-			"assists": 120,
-			"points": 200
+		"Dean Tonks": {
+			"name": "Dean Tonks",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "Forward",
+			"gp": 10,
+			"goals": 4,
+			"assists": 19,
+			"points": 23,
+			"pim": 35,
+			"plusMinus": -1
 		},
-		"admirals": {
-			"name": "Jake Radcliffe",
-			"goals": 30,
-			"assists": 28,
-			"points": 58
+		"Eddie Commons": {
+			"name": "Eddie Commons",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Defence",
+			"gp": 4,
+			"goals": 0,
+			"assists": 0,
+			"points": 0,
+			"pim": 0,
+			"plusMinus": 0
 		},
-		"thunder": {
-			"name": "Gints Leitis",
-			"goals": 12,
-			"assists": 5,
-			"points": 17
+		"Michael Atwell": {
+			"name": "Michael Atwell",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Forward",
+			"gp": 15,
+			"goals": 5,
+			"assists": 8,
+			"points": 13,
+			"pim": 30,
+			"plusMinus": -7
+		},
+		"KC Ball": {
+			"name": "K.C Ball",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "Forward",
+			"gp": 16,
+			"goals": 0,
+			"assists": 9,
+			"points": 9,
+			"pim": 6,
+			"plusMinus": -8
+		},
+		"Oliver Hay": {
+			"name": "Oliver Hay",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "Forward",
+			"gp": 15,
+			"goals": 2,
+			"assists": 6,
+			"points": 8,
+			"pim": 47,
+			"plusMinus": -7
+		},
+		"Logan Fraser": {
+			"name": "Logan Fraser",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Defence",
+			"gp": 13,
+			"goals": 2,
+			"assists": 3,
+			"points": 5,
+			"pim": 4,
+			"plusMinus": 3
+		}
+	},
+	"playerSwarm": {
+		"Michael Atwell": {
+			"name": "Michael Atwell",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Forward",
+			"gp": 15,
+			"goals": 5,
+			"assists": 8,
+			"points": 13,
+			"pim": 30,
+			"plusMinus": -7
+		},
+		"KC Ball": {
+			"name": "K.C Ball",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "Forward",
+			"gp": 16,
+			"goals": 0,
+			"assists": 9,
+			"points": 9,
+			"pim": 6,
+			"plusMinus": -8
+		},
+		"Oliver Hay": {
+			"name": "Oliver Hay",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "Forward",
+			"gp": 15,
+			"goals": 2,
+			"assists": 6,
+			"points": 8,
+			"pim": 47,
+			"plusMinus": -7
+		},
+		"Logan Fraser": {
+			"name": "Logan Fraser",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Defence",
+			"gp": 13,
+			"goals": 2,
+			"assists": 3,
+			"points": 5,
+			"pim": 4,
+			"plusMinus": 3
+		}
+	},
+	"playerReddevils": {
+		"Chris Eaden": {
+			"name": "Chris Eaden",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Forward",
+			"gp": 16,
+			"goals": 14,
+			"assists": 14,
+			"points": 28,
+			"pim": 10,
+			"plusMinus": 9
+		},
+		"Brad Apps": {
+			"name": "Brad Apps",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Forward",
+			"gp": 16,
+			"goals": 4,
+			"assists": 4,
+			"points": 8,
+			"pim": 8,
+			"plusMinus": -9
+		},
+		"Dean Tonks": {
+			"name": "Dean Tonks",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "Forward",
+			"gp": 10,
+			"goals": 4,
+			"assists": 19,
+			"points": 23,
+			"pim": 35,
+			"plusMinus": -1
+		},
+		"Eddie Commons": {
+			"name": "Eddie Commons",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "Defence",
+			"gp": 4,
+			"goals": 0,
+			"assists": 0,
+			"points": 0,
+			"pim": 0,
+			"plusMinus": 0
 		}
 	},
 	"scheduleAdmirals": {
@@ -199,7 +365,7 @@
 			"date": "Friday, May 26th, 6:50pm",
 			"home": "Skycity Stampede",
 			"leagueGame": "Game 1",
-			"teamGame": "Game 01",
+			"teamGame": "Game 1",
 			"venue": "Queenstown Ice Arena",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=22485eeb-bfcb-4d44-bfd3-7f8452353fa9"
@@ -209,7 +375,7 @@
 			"date": "Saturday, May 27th, 6:50pm",
 			"home": "Skycity Stampede",
 			"leagueGame": "Game 2",
-			"teamGame": "Game 02",
+			"teamGame": "Game 2",
 			"venue": "Queenstown Ice Arena",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=22485eeb-bfcb-4d44-bfd3-7f8452353fa9"
@@ -365,7 +531,7 @@
 			"date": "Friday, May 26th, 6:50pm",
 			"home": "Skycity Stampede",
 			"leagueGame": "Game 1",
-			"teamGame": "Game 01",
+			"teamGame": "Game 1",
 			"venue": "Queenstown Ice Arena",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=22485eeb-bfcb-4d44-bfd3-7f8452353fa9"
@@ -375,7 +541,7 @@
 			"date": "Saturday, May 27th, 6:50pm",
 			"home": "Skycity Stampede",
 			"leagueGame": "Game 2",
-			"teamGame": "Game 02",
+			"teamGame": "Game 2",
 			"venue": "Queenstown Ice Arena",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/devils.png?alt=media&token=22485eeb-bfcb-4d44-bfd3-7f8452353fa9"
@@ -385,7 +551,7 @@
 			"date": "Saturday, June 17th, 4:40pm",
 			"home": "Dunedin Thunder",
 			"leagueGame": "Game 9",
-			"teamGame": "Game 03",
+			"teamGame": "Game 3",
 			"venue": "Dunedin Ice Stadium",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=26099ca7-f9fe-42f4-811f-e9e95abb4729",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb"
@@ -395,7 +561,7 @@
 			"date": "Sunday, June 18th, 4:40pm",
 			"home": "Dunedin Thunder",
 			"leagueGame": "Game 10",
-			"teamGame": "Game 04",
+			"teamGame": "Game 4",
 			"venue": "Dunedin Ice Stadium",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=26099ca7-f9fe-42f4-811f-e9e95abb4729",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb"
@@ -617,7 +783,7 @@
 			"date": "Sunday, July 16th, 4:45pm",
 			"home": "Botany Swarm",
 			"leagueGame": "Game 28",
-			"teamGame": "Game 9",
+			"teamGame": "Game 10",
 			"venue": "Paradice Botany",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/swarm.png?alt=media&token=6b9f1231-5837-4dde-9c31-8db2fedb96b8",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=26099ca7-f9fe-42f4-811f-e9e95abb4729"
@@ -709,7 +875,7 @@
 			"date": "Saturday, June 17th, 4:40pm",
 			"home": "Dunedin Thunder",
 			"leagueGame": "Game 9",
-			"teamGame": "Game 03",
+			"teamGame": "Game 3",
 			"venue": "Dunedin Ice Stadium",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=26099ca7-f9fe-42f4-811f-e9e95abb4729",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb"
@@ -719,7 +885,7 @@
 			"date": "Sunday, June 18th, 4:40pm",
 			"home": "Dunedin Thunder",
 			"leagueGame": "Game 10",
-			"teamGame": "Game 04",
+			"teamGame": "Game 4",
 			"venue": "Dunedin Ice Stadium",
 			"homeLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/thunder.png?alt=media&token=26099ca7-f9fe-42f4-811f-e9e95abb4729",
 			"awayLogo": "https://firebasestorage.googleapis.com/v0/b/nzihl-game-center.appspot.com/o/stampede.png?alt=media&token=0729a81d-eccf-426a-99c6-72cac19d31eb"

@@ -50,10 +50,10 @@ Router.map(function() {
   // Begin Player Routes
   this.route('players', function() {
     this.route('admirals');
-    this.route('swarm');
+    this.route('swarm', function() {});
     this.route('thunder');
     this.route('stampede');
-    this.route('reddevils');
+    this.route('reddevils', function() {});
   });
   // End Player Routes
 });
