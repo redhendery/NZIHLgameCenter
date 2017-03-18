@@ -1,13 +1,44 @@
-{{#each model as |players| }}
-  {{players.name}}
-  {{players.team}}
-  {{players.shoots}}
-  {{players.position}}
-  {{players.gp}}
-  {{players.goals}}
-  {{players.assists}}
-  {{players.points}}
-  {{players.pim}}
-  {{players.plusMinus}}
-{{/each}}
+<div class="container-fluid">
+  {{#each model as |players| }}
+    <div class="col-sm-3">
+      <div class="panel panel-info">
+        <div class="panel-heading container-fluid">
+          <div class="row">
+            <div class="col-xs-9">
+              <h4 class="list-group-item-heading">{{players.name}}</h4>
+              <p class="list-group-item-text">{{players.team}}</p>
+            </div>
+            <div class="col-xs-3">
+              <h4 class="pull-right">{{players.position}}</h4>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="table">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>GP</th>
+                  <th>G</th>
+                  <th>A</th>
+                  <th>P</th>
+                  <th>PIM</th>
+                  <th>+/-</th>
+                </tr>
+              </thead>
+              <tbody>
+                <td>{{players.gp}}</td>
+                <td>{{players.goals}}</td>
+                <td>{{players.assists}}</td>
+                <td>{{players.points}}</td>
+                <td>{{players.pim}}</td>
+                <td>{{players.plusMinus}}</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
 {{outlet}}
