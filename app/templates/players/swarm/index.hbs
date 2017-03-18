@@ -1,13 +1,44 @@
-{{#each model as |playersSwarm| }}
-  {{players.name}}
-  {{players.team}}
-  {{players.shoots}}
-  {{players.position}}
-  {{players.gp}}
-  {{players.goals}}
-  {{players.assists}}
-  {{players.points}}
-  {{players.pim}}
-  {{players.plusMinus}}
-{{/each}}
+<div class="container-fluid">
+  {{#each model as |playerSwarm| }}
+    <div class="col-sm-3">
+      <div class="panel panel-info">
+        <div class="panel-heading container-fluid">
+          <div class="row">
+            <div class="col-xs-9">
+              <h4 class="list-group-item-heading">{{playerSwarm.name}}</h4>
+              <p class="list-group-item-text">{{playerSwarm.team}}</p>
+            </div>
+            <div class="col-xs-3">
+              <h4 class="pull-right">{{playerSwarm.position}}</h4>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="table-responsive">
+            <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th class="text-center col-xs-2">GP</th>
+                  <th class="text-center col-xs-2">G</th>
+                  <th class="text-center col-xs-2">A</th>
+                  <th class="text-center col-xs-2">P</th>
+                  <th class="text-center col-xs-2">PIM</th>
+                  <th class="text-center col-xs-2">+/-</th>
+                </tr>
+              </thead>
+              <tbody>
+                <td class="text-center col-xs-2">{{playerSwarm.gp}}</td>
+                <td class="text-center col-xs-2">{{playerSwarm.goals}}</td>
+                <td class="text-center col-xs-2">{{playerSwarm.assists}}</td>
+                <td class="text-center col-xs-2">{{playerSwarm.points}}</td>
+                <td class="text-center col-xs-2">{{playerSwarm.pim}}</td>
+                <td class="text-center col-xs-2">{{playerSwarm.plusMinus}}</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
 {{outlet}}

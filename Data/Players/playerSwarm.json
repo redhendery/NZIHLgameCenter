@@ -1,8 +1,8 @@
 {
-	"playerSwarm": {
+	"playerSwarms": {
 		"Michael Atwell": {
 			"name": "Michael Atwell",
-			"team": "Canterbury Red Devils",
+			"team": "Botany Swarm",
 			"shoots": "Right",
 			"position": "F",
 			"gp": 15,
@@ -12,9 +12,9 @@
 			"pim": 30,
 			"plusMinus": -7
 		},
-		"K.C Ball": {
+		"KC Ball": {
 			"name": "K.C Ball",
-			"team": "Canterbury Red Devils",
+			"team": "Botany Swarm",
 			"shoots": "Left",
 			"position": "F",
 			"gp": 16,
@@ -26,7 +26,7 @@
 		},
 		"Oliver Hay": {
 			"name": "Oliver Hay",
-			"team": "Canterbury Red Devils",
+			"team": "Botany Swarm",
 			"shoots": "Left",
 			"position": "F",
 			"gp": 15,
@@ -38,7 +38,7 @@
 		},
 		"Logan Fraser": {
 			"name": "Logan Fraser",
-			"team": "Canterbury Red Devils",
+			"team": "Botany Swarm",
 			"shoots": "Right",
 			"position": "D",
 			"gp": 13,
