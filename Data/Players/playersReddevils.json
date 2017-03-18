@@ -1,0 +1,52 @@
+{
+	"playerReddevils": {
+		"Chris Eaden": {
+			"name": "Chris Eaden",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "F",
+			"gp": 16,
+			"goals": 14,
+			"assists": 14,
+			"points": 28,
+			"pim": 10,
+			"plusMinus": 9
+		},
+		"Brad Apps": {
+			"name": "Brad Apps",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "F",
+			"gp": 16,
+			"goals": 4,
+			"assists": 4,
+			"points": 8,
+			"pim": 8,
+			"plusMinus": -9
+		},
+		"Dean Tonks": {
+			"name": "Dean Tonks",
+			"team": "Canterbury Red Devils",
+			"shoots": "Left",
+			"position": "F",
+			"gp": 10,
+			"goals": 4,
+			"assists": 19,
+			"points": 23,
+			"pim": 35,
+			"plusMinus": -1
+		},
+		"Eddie Commons": {
+			"name": "Eddie Commons",
+			"team": "Canterbury Red Devils",
+			"shoots": "Right",
+			"position": "D",
+			"gp": 4,
+			"goals": 0,
+			"assists": 0,
+			"points": 0,
+			"pim": 0,
+			"plusMinus": 0
+		}
+	}
+}

@@ -1,0 +1,44 @@
+<div class="container-fluid">
+  {{#each model as |players| }}
+    <div class="col-sm-3">
+      <div class="panel panel-info">
+        <div class="panel-heading container-fluid">
+          <div class="row">
+            <div class="col-xs-9">
+              <h4 class="list-group-item-heading">{{players.name}}</h4>
+              <p class="list-group-item-text">{{players.team}}</p>
+            </div>
+            <div class="col-xs-3">
+              <h4 class="pull-right">{{players.position}}</h4>
+            </div>
+          </div>
+        </div>
+        <div class="panel-body">
+          <div class="table-responsive">
+            <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th class="text-center col-xs-2">GP</th>
+                  <th class="text-center col-xs-2">G</th>
+                  <th class="text-center col-xs-2">A</th>
+                  <th class="text-center col-xs-2">P</th>
+                  <th class="text-center col-xs-2">PIM</th>
+                  <th class="text-center col-xs-2">+/-</th>
+                </tr>
+              </thead>
+              <tbody>
+                <td class="text-center col-xs-2">{{players.gp}}</td>
+                <td class="text-center col-xs-2">{{players.goals}}</td>
+                <td class="text-center col-xs-2">{{players.assists}}</td>
+                <td class="text-center col-xs-2">{{players.points}}</td>
+                <td class="text-center col-xs-2">{{players.pim}}</td>
+                <td class="text-center col-xs-2">{{players.plusMinus}}</td>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+{{outlet}}
