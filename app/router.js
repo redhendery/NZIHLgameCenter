@@ -49,10 +49,10 @@ Router.map(function() {
 
   // Begin Player Routes
   this.route('players', function() {
-    this.route('admirals');
+    this.route('admirals', function() {});
     this.route('swarm', function() {});
-    this.route('thunder');
-    this.route('stampede');
+    this.route('thunder', function() {});
+    this.route('stampede', function() {});
     this.route('reddevils', function() {});
   });
   // End Player Routes
