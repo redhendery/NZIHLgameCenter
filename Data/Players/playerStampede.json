@@ -1,52 +1,56 @@
 {
 	"playerStampedes": {
-		"Matt Schneider": {
-			"name": "Matt Schneider",
-			"team": "Skycity Stampede",
-			"shoots": "Left",
-			"position": "F",
-			"gp": 10,
-			"goals": 14,
-			"assists": 9,
-			"points": 23,
-			"pim": 2,
-			"plusMinus": 12
-		},
-		"Braden Lee": {
-			"name": "Braden Lee",
-			"team": "Skycity Stampede",
-			"shoots": "Right",
-			"position": "F",
-			"gp": 16,
-			"goals": 7,
-			"assists": 5,
-			"points": 12,
-			"pim": 8,
-			"plusMinus": 10
-		},
-		"Bert Haines": {
-			"name": "Bert Haines",
-			"team": "Skycity Stampede",
-			"shoots": "Left",
-			"position": "D",
-			"gp": 16,
-			"goals": 1,
-			"assists": 2,
-			"points": 3,
-			"pim": 30,
-			"plusMinus": 0
-		},
-		"Hayden Argyle": {
-			"name": "Hayden Argyle",
-			"team": "Skycity Stampede",
-			"shoots": "Left",
-			"position": "D",
-			"gp": 14,
-			"goals": 2,
-			"assists": 5,
-			"points": 7,
-			"pim": 49,
-			"plusMinus": 9
-		}
-	}
+    "Matt Schneider": {
+      "name": "Matt Schneider",
+      "team": "Skycity Stampede",
+      "shoots": "Left",
+      "position": "Forward",
+      "number": 4,
+      "gp": 10,
+      "goals": 14,
+      "assists": 9,
+      "points": 23,
+      "pim": 2,
+      "plusMinus": 12
+    },
+    "Braden Lee": {
+      "name": "Braden Lee",
+      "team": "Skycity Stampede",
+      "shoots": "Right",
+      "position": "Forward",
+      "number": 12,
+      "gp": 16,
+      "goals": 7,
+      "assists": 5,
+      "points": 12,
+      "pim": 8,
+      "plusMinus": 10
+    },
+    "Bert Haines": {
+      "name": "Bert Haines",
+      "team": "Skycity Stampede",
+      "shoots": "Left",
+      "position": "Defence",
+      "number": 2,
+      "gp": 16,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "pim": 30,
+      "plusMinus": 0
+    },
+    "Hayden Argyle": {
+      "name": "Hayden Argyle",
+      "team": "Skycity Stampede",
+      "shoots": "Left",
+      "position": "Defence",
+      "number": 22,
+      "gp": 14,
+      "goals": 2,
+      "assists": 5,
+      "points": 7,
+      "pim": 49,
+      "plusMinus": 9
+    }
+  }
 }

@@ -1,52 +1,56 @@
 {
 	"playerThunders": {
-		"Joe Orr": {
-			"name": "Joe Orr",
-			"team": "Dunedin Thunder",
-			"shoots": "Right",
-			"position": "F",
-			"gp": 13,
-			"goals": 0,
-			"assists": 0,
-			"points": 0,
-			"pim": 8,
-			"plusMinus": -9
-		},
-		"Gints Leitis": {
-			"name": "K.Gints Leitis",
-			"team": "Dunedin Thunder",
-			"shoots": "Left",
-			"position": "F",
-			"gp": 14,
-			"goals": 13,
-			"assists": 14,
-			"points": 27,
-			"pim": 30,
-			"plusMinus": -9
-		},
-		"Connor Harrison": {
-			"name": "Connor Harrison",
-			"team": "Dunedin Thunder",
-			"shoots": "Right",
-			"position": "F",
-			"gp": 14,
-			"goals": 3,
-			"assists": 7,
-			"points": 10,
-			"pim": 45,
-			"plusMinus": -11
-		},
-		"Matas Barakauskas": {
-			"name": "Matas Barakauskas",
-			"team": "Dunedin Thunder",
-			"shoots": "Left",
-			"position": "D",
-			"gp": 12,
-			"goals": 0,
-			"assists": 0,
-			"points": 0,
-			"pim": 2,
-			"plusMinus": -5
-		}
-	}
+    "Joe Orr": {
+      "name": "Joe Orr",
+      "team": "Dunedin Thunder",
+      "shoots": "Right",
+      "position": "Forward",
+      "number": 90,
+      "gp": 13,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 8,
+      "plusMinus": -9
+    },
+    "Gints Leitis": {
+      "name": "Gints Leitis",
+      "team": "Dunedin Thunder",
+      "shoots": "Left",
+      "position": "Forward",
+      "number": 23,
+      "gp": 14,
+      "goals": 13,
+      "assists": 14,
+      "points": 27,
+      "pim": 30,
+      "plusMinus": -9
+    },
+    "Connor Harrison": {
+      "name": "Connor Harrison",
+      "team": "Dunedin Thunder",
+      "shoots": "Right",
+      "position": "Forward",
+      "number": 8,
+      "gp": 14,
+      "goals": 3,
+      "assists": 7,
+      "points": 10,
+      "pim": 45,
+      "plusMinus": -11
+    },
+    "Matas Barakauskas": {
+      "name": "Matas Barakauskas",
+      "team": "Dunedin Thunder",
+      "shoots": "Left",
+      "position": "Defence",
+      "number": 6,
+      "gp": 12,
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 2,
+      "plusMinus": -5
+    }
+  }
 }

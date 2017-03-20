@@ -1,15 +1,16 @@
 <div class="container-fluid">
   {{#each model as |playerStampede| }}
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <div class="panel panel-info">
         <div class="panel-heading container-fluid">
           <div class="row">
-            <div class="col-xs-9">
+            <div class="col-xs-10">
               <h4 class="list-group-item-heading">{{playerStampede.name}}</h4>
-              <p class="list-group-item-text">{{playerStampede.team}}</p>
+              <p class="list-group-item-text">Shoots: {{playerStampede.shoots}}</p>
             </div>
-            <div class="col-xs-3">
-              <h4 class="pull-right">{{playerStampede.position}}</h4>
+            <div class="col-xs-2">
+              <h4 class="list-group-item-heading pull-right">#{{playerStampede.number}}</h4>
+              <p class="list-group-item-text pull-right">{{playerStampede.position}}</p>
             </div>
           </div>
         </div>

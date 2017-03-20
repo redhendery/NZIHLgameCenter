@@ -10,5 +10,6 @@ export default DS.Model.extend({
   assists: DS.attr('number'),
   points: DS.attr('number'),
   pim: DS.attr('number'),
-  plusMinus: DS.attr('number')
+  plusMinus: DS.attr('number'),
+  number: DS.attr('number')
 });

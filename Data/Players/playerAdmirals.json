@@ -1,52 +1,56 @@
 {
 	"playerAdmirals": {
-		"Jake Ratcliffe": {
-			"name": "Jake Ratcliffe",
-			"team": "West Auckland Admirals",
-			"shoots": "Right",
-			"position": "F",
-			"gp": 15,
-			"goals": 12,
-			"assists": 6,
-			"points": 18,
-			"pim": 12,
-			"plusMinus": 7
-		},
-		"Andy Hart": {
-			"name": "Andy Hart",
-			"team": "West Auckland Admirals",
-			"shoots": "Right",
-			"position": "F",
-			"gp": 15,
-			"goals": 4,
-			"assists": 20,
-			"points": 124,
-			"pim": 16,
-			"plusMinus": 11
-		},
-		"Justin Daigle": {
-			"name": "Justin Daigle",
-			"team": "West Auckland Admirals",
-			"shoots": "Left",
-			"position": "D",
-			"gp": 16,
-			"goals": 1,
-			"assists": 2,
-			"points": 3,
-			"pim": 30,
-			"plusMinus": 0
-		},
-		"Blake Jackson": {
-			"name": "Blake Jackson",
-			"team": "West Auckland Admirals",
-			"shoots": "Right",
-			"position": "D",
-			"gp": 15,
-			"goals": 4,
-			"assists": 8,
-			"points": 12,
-			"pim": 18,
-			"plusMinus": 9
-		}
-	}
+    "Jake Ratcliffe": {
+      "name": "Jake Ratcliffe",
+      "team": "West Auckland Admirals",
+      "shoots": "Right",
+      "position": "Forward",
+      "number": 8,
+      "gp": 15,
+      "goals": 12,
+      "assists": 6,
+      "points": 18,
+      "pim": 12,
+      "plusMinus": 7
+    },
+    "Andy Hart": {
+      "name": "Andy Hart",
+      "team": "West Auckland Admirals",
+      "shoots": "Right",
+      "position": "Forward",
+      "number": 13,
+      "gp": 15,
+      "goals": 4,
+      "assists": 20,
+      "points": 24,
+      "pim": 16,
+      "plusMinus": 11
+    },
+    "Justin Daigle": {
+      "name": "Justin Daigle",
+      "team": "West Auckland Admirals",
+      "shoots": "Left",
+      "position": "Defence",
+      "number": 47,
+      "gp": 16,
+      "goals": 1,
+      "assists": 2,
+      "points": 3,
+      "pim": 30,
+      "plusMinus": 0
+    },
+    "Blake Jackson": {
+      "name": "Blake Jackson",
+      "team": "West Auckland Admirals",
+      "shoots": "Right",
+      "position": "Defence",
+      "number": 5,
+      "gp": 15,
+      "goals": 4,
+      "assists": 8,
+      "points": 12,
+      "pim": 18,
+      "plusMinus": 9
+    }
+  }
 }
