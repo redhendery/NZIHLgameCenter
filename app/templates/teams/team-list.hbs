@@ -1,0 +1,12 @@
+<ul class='team-list'>
+{{#each model as |team|}}
+
+  {{log team}}
+
+	<li class='team'>
+  	{{#link-to 'teams.team' team}}
+  		{{team.slug}}
+    {{/link-to}}
+  </li>
+{{/each}}
+</ul>
